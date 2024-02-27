@@ -397,7 +397,17 @@
                     <div class="project_text text-center">
                         <h3>Let’s discuss for a project</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</p>
-                        <a class="boxed-btn3" href="#">Start Talking</a>
+                        <div class="start_talking">
+                            <a class="boxed-btn3" href="#" id="callButton">Start Talking</a>
+                        </div>
+                    
+                        <script>
+                            document.getElementById("callButton").addEventListener("click", function() {
+                                // Replace the phone number below with the number you want to call
+                                window.location.href = "tel:+916383687784";
+                            });
+                        </script>
+                        
                     </div>
                 </div>
             </div>
